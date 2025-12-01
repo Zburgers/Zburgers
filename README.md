@@ -1,98 +1,69 @@
-# 👋 Hi, I'm Nakshatra Kundlas
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00F7FF&center=true&vCenter=true&width=940&lines=Python+%26+AI+Specialist;Early+AI+Tech+Adopter;Startup+Builder+%26+Tech+Explorer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=30&duration=3000&pause=1000&color=3399FF&center=true&vCenter=true&width=900&lines=Software+Engineer+%26+AI+Researcher;Architecting+Scalable+Intelligence;Open+Source+Contributor" alt="Typing SVG" />
+
+  <p align="center">
+    <a href="https://github.com/zburgers">
+      <img src="https://img.shields.io/badge/Focus-AI%20%26%20System%20Design-000000?style=for-the-badge&logo=openai&logoColor=white" />
+    </a>
+    <a href="https://linkedin.com/in/nakshatra-kundlas-7a33a9170">
+      <img src="https://img.shields.io/badge/Network-Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+  </p>
 </div>
 
-## 🚀 About Me
+<br />
 
-I'm a tech enthusiast and early adopter who's always at the forefront of emerging technologies. With a strong foundation in Python and AI, I'm constantly experimenting with cutting-edge tools and frameworks. I believe in staying ahead of tech trends and leveraging them to build innovative solutions that matter.
+## ⚡ Engineering Philosophy
 
-### 🎯 Vision
-- Building innovative startups that make a meaningful impact
-- Being an early adopter and experimenter with emerging AI technologies
-- Creating scalable solutions that leverage the latest tech breakthroughs
-- Turning cutting-edge research into practical applications
+I am a developer focused on the intersection of **High-Performance Computing** and **Artificial Intelligence**. My work moves beyond simple implementation; I focus on designing robust architectures that turn complex research concepts into scalable, user-centric applications.
 
-### 💻 Tech Stack
+Currently, I am exploring **Agentic AI workflows**, **RAG optimization**, and **Decentralized Systems**.
 
-```python
-tech_profile = {
-    "core_expertise": {
-        "languages": ["Python", "C/C++ (Basic)"],
-        "ai_ml": [
-            "LangChain", "OpenAI API", "HuggingFace Transformers",
-            "TensorFlow", "PyTorch", "Stable Diffusion",
-            "LLMs", "ChatGPT Integration", "Custom AI Models"
-        ]
-    },
-    
-    "emerging_tech": {
-        "currently_exploring": [
-            "Generative AI", "AI Agents",
-            "Multi-modal AI", "RAG Systems",
-            "Vector Databases"
-        ],
-        "interests": [
-            "AGI Development",
-            "AI-First Applications",
-            "Autonomous Systems"
-        ]
-    },
-    
-    "development": {
-        "tools": ["Git", "Docker", "VS Code", "Jupyter"],
-        "frameworks": ["FastAPI", "Django", "Flask"],
-        "databases": ["PostgreSQL", "MongoDB", "Redis"]
-    },
-    
-    "blockchain": {
-        "technologies": ["Web3", "Smart Contracts"],
-        "platforms": ["Ethereum", "Layer 2 Solutions"]
-    }
-}
-```
+---
 
-### 🌟 Featured Projects
-
-- **Sentiment Analysis DISTILLBERT** - Advanced NLP model for Amazon review analysis using state-of-the-art transformer architecture
-- **MRS** - Machine Learning research project exploring innovative approaches
-- **AI Experiments** - Continuous exploration of new AI models and capabilities 🧪
-- *More cutting-edge projects in development* 🚀
-
-### 🔥 What Drives Me
-
-- Staying ahead of the technology curve
-- Experimenting with the latest AI advancements
-- Building practical applications using cutting-edge tech
-- Turning complex AI capabilities into user-friendly solutions
-- Contributing to the future of technology
-
-### 🎓 Continuous Learning
-
-- Actively exploring latest developments in AI and LLMs
-- Experimenting with new AI tools and frameworks
-- Following AI research papers and implementing new techniques
-- Building projects with emerging technologies
-
-### 📈 GitHub Stats
+## 🛠 Tech Arsenal
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zburgers&show_icons=true&theme=radical" alt="GitHub Stats" />
-</div>
 
-### 🤝 Let's Connect!
-
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nakshatra-kundlas-7a33a9170/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zburgers)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nakshatra.kundlas@outlook.com)
+| Core & Languages | AI & Data Engineering | Infrastructure & Tools |
+| :---: | :---: | :---: |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) |
 
 </div>
 
 ---
 
+## 🔬 Featured Implementations
+
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **Sentiment Analysis Architecture** | An advanced NLP pipeline utilizing **DistilBERT** transformers to analyze complex sentiment patterns in e-commerce data with high inference speed. | `Transformers` `PyTorch` `FastAPI` |
+| **Project MRS** | *[Update Description Here]* A machine learning research initiative exploring [specific technique] to solve [specific problem]. | `Scikit-Learn` `Python` `Pandas` |
+| **Decentralized Bot Network** | An automated bot ecosystem leveraging **Web3** principles and **AI Agents** for autonomous decision making. | `Solidity` `OpenAI API` `Node.js` |
+| **DataWizrd** *(Suggested Update)* | A desktop utility for data manipulation and visualization simulating diverse environments. | `PyQt` `Python` `Matplotlib` |
+
+---
+
+## 📊 Performance Metrics
+
 <div align="center">
-  <i>🚀 Always experimenting with the latest tech and open to innovative collaborations!</i>
+  <img src="https://github-readme-stats.vercel.app/api?username=zburgers&show_icons=true&theme=transparent&hide_border=true&title_color=3399FF&text_color=999&icon_color=3399FF&count_private=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zburgers&layout=compact&theme=transparent&hide_border=true&title_color=3399FF&text_color=999&icon_color=3399FF" height="150" alt="languages graph" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github.com/zburgers/zburgers/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</div>
+
+---
+
+<div align="center">
+  <p><i>"The best way to predict the future is to invent it."</i></p>
+  <a href="mailto:nakshatra.kundlas@outlook.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-333333?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
+  </a>
 </div>
