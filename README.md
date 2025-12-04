@@ -1,69 +1,241 @@
+<!-- Header Section with Dynamic Typing -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=30&duration=3000&pause=1000&color=3399FF&center=true&vCenter=true&width=900&lines=Software+Engineer+%26+AI+Researcher;Architecting+Scalable+Intelligence;Open+Source+Contributor" alt="Typing SVG" />
+  
+  <!-- Animated Typing Header -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=32&duration=3000&pause=1000&color=3399FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%91%8B+Hey%2C+I'm+Nakshatra+Kundlas;AI+%26+Data+Science+Engineer;Daily+Driving+Fedora+%26+Breaking+Code;Architecting+Scalable+Intelligence" alt="Typing SVG" />
 
-  <p align="center">
-    <a href="https://github.com/zburgers">
-      <img src="https://img.shields.io/badge/Focus-AI%20%26%20System%20Design-000000?style=for-the-badge&logo=openai&logoColor=white" />
+  <br/>
+  
+  <!-- Quick Links & Identity Badges -->
+  <p>
+    <a href="https://github.com/Zburgers">
+      <img src="https://img.shields.io/badge/Focus-GenAI%20%26%20System%20Design-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Focus Badge"/>
     </a>
-    <a href="https://linkedin.com/in/nakshatra-kundlas-7a33a9170">
-      <img src="https://img.shields.io/badge/Network-Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <a href="https://getfedora.org/">
+      <img src="https://img.shields.io/badge/OS-Fedora%20Linux%20%F0%9F%90%A7-51A2DA?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora Badge"/>
+    </a>
+    <a href="https://portfolio-next-os.vercel.app/">
+      <img src="https://img.shields.io/badge/Portfolio-Live%20Demo-00C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Badge"/>
     </a>
   </p>
+  
+  <!-- Profile Views Counter -->
+  <img src="https://komarev.com/ghpvc/?username=Zburgers&style=for-the-badge&color=3399FF&label=Profile+Views" alt="Profile Views"/>
+  
 </div>
 
-<br />
-
-## ⚡ Engineering Philosophy
-
-I am a developer focused on the intersection of **High-Performance Computing** and **Artificial Intelligence**. My work moves beyond simple implementation; I focus on designing robust architectures that turn complex research concepts into scalable, user-centric applications.
-
-Currently, I am exploring **Agentic AI workflows**, **RAG optimization**, and **Decentralized Systems**.
+<br/>
 
 ---
 
-## 🛠 Tech Arsenal
+<!-- system_profile.py - Python Class Style Bio -->
+## 💻 `system_profile.py`
+
+```python
+class Nakshatra(Engineer):
+    """
+    AI & Data Science Engineer | Full Stack Developer | Open Source Enthusiast
+    """
+    
+    def __init__(self):
+        self.name = "Nakshatra Kundlas"
+        self.role = "AI & Data Science Undergrad"
+        self.university = "Shiv Nadar University, Chennai"
+        self.os = "Fedora Linux 🐧"  # Daily driver, btw
+        self.main_stack = ["Deep Learning", "Next.js / MERN", "Cloud Native"]
+        self.current_focus = "Solving complex problems with Agentic AI"
+        
+    def side_quests(self) -> dict:
+        """The hacker side of me."""
+        return {
+            "os": "Fedora Linux (Daily Driver)",
+            "security": "CTFs & Breaking Code",
+            "community": "Open Source Contributor",
+            "fun_fact": "I mass mass mass 🚀"
+        }
+    
+    def get_certifications(self) -> list:
+        return [
+            "🔥 PyTorch & Deep Learning (Linux Foundation)",
+            "☁️ Prompt Design in Vertex AI (Google Cloud)",
+            "🤖 Machine Learning with Python (freeCodeCamp)"
+        ]
+```
+
+---
+
+<!-- Featured Projects Section -->
+## 🚀 Flagship Projects
 
 <div align="center">
 
-| Core & Languages | AI & Data Engineering | Infrastructure & Tools |
-| :---: | :---: | :---: |
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) |
+| Project & Impact | Tech Stack |
+|:---|:---|
+| **[🩺 HealthTrack AI](https://github.com/Zburgers/HealthTrack-AI)** <br/> Cloud-native clinical workflow automation. <br/> • Reduced documentation time by **85%** via automated ICD-10 coding <br/> • BioBERT & Vector Search for patient analytics <br/> • HIPAA-compliant architecture with RBAC | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **[♻️ WasteWise](https://github.com/Zburgers/WasteWise)** 🏆 *Hackathon Winner* <br/> AI-powered gamified waste management. <br/> • AI Image Classifier for real-time disposal advice <br/> • Web3 rewards system with NFT minting <br/> • Scalable full-stack application | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
+| **[🚨 SentientAI](https://github.com/Zburgers/SentientAI)** <br/> Advanced Hybrid DDoS Detection System. <br/> • Fused CNN-LSTM + XGBoost for intrusion detection <br/> • **92%+ accuracy** on network threats <br/> • Real-time threat visualization dashboard | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **[🖥️ Portfolio OS](https://portfolio-next-os.vercel.app/)** <br/> Desktop OS-style portfolio website. <br/> • Full window management system <br/> • Glassmorphism UI with smooth animations <br/> • Built-in terminal, file browser & more | ![Next.js](https://img.shields.io/badge/Next.js%2015-000?style=flat-square&logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind%20v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Framer](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white) |
 
 </div>
 
 ---
 
-## 🔬 Featured Implementations
-
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **Sentiment Analysis Architecture** | An advanced NLP pipeline utilizing **DistilBERT** transformers to analyze complex sentiment patterns in e-commerce data with high inference speed. | `Transformers` `PyTorch` `FastAPI` |
-| **Project MRS** | *[Update Description Here]* A machine learning research initiative exploring [specific technique] to solve [specific problem]. | `Scikit-Learn` `Python` `Pandas` |
-| **Decentralized Bot Network** | An automated bot ecosystem leveraging **Web3** principles and **AI Agents** for autonomous decision making. | `Solidity` `OpenAI API` `Node.js` |
-| **DataWizrd** *(Suggested Update)* | A desktop utility for data manipulation and visualization simulating diverse environments. | `PyQt` `Python` `Matplotlib` |
-
----
-
-## 📊 Performance Metrics
+<!-- Tech Arsenal Section -->
+## 🛠️ Tech Arsenal
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zburgers&show_icons=true&theme=transparent&hide_border=true&title_color=3399FF&text_color=999&icon_color=3399FF&count_private=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zburgers&layout=compact&theme=transparent&hide_border=true&title_color=3399FF&text_color=999&icon_color=3399FF" height="150" alt="languages graph" />
-</div>
 
-<br />
+| **🧠 Generative AI & Data** | **⚡ Full Stack Engineering** | **🔧 DevOps & Security** |
+|:---:|:---:|:---:|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
+| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white) |
+| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) |
+| ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) | ![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) |
+| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) |
 
-<div align="center">
-  <img src="https://github.com/zburgers/zburgers/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
 ---
 
+<!-- Achievements Section -->
+## 🏆 Achievements & Certifications
+
 <div align="center">
-  <p><i>"The best way to predict the future is to invent it."</i></p>
-  <a href="mailto:nakshatra.kundlas@outlook.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-333333?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 🎖️ Achievements
+  
+🥇 **Hackathon Winner** - Electrothon 7.0 (WasteWise)  
+🌟 **Open Source Contributor** - YSOC  
+🏥 **Google AI in Action** - HealthTrack AI Featured  
+🐧 **Linux Enthusiast** - Daily Driving Fedora  
+
+</td>
+<td align="center" width="50%">
+
+### 📜 Certifications
+
+🔥 PyTorch & Deep Learning *(Linux Foundation)*  
+☁️ Prompt Design in Vertex AI *(Google Cloud)*  
+🤖 Machine Learning with Python *(freeCodeCamp)*  
+🧠 Deep Learning Specialization *(DeepLearning.AI)*  
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<!-- GitHub Stats Section -->
+## 📊 GitHub Analytics
+
+<div align="center">
+  
+  <!-- GitHub Stats Card -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Zburgers&show_icons=true&theme=transparent&hide_border=true&title_color=3399FF&text_color=999999&icon_color=3399FF&count_private=true&include_all_commits=true" height="165" alt="GitHub Stats"/>
+  &nbsp;&nbsp;
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zburgers&layout=compact&theme=transparent&hide_border=true&title_color=3399FF&text_color=999999" height="165" alt="Top Languages"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+  
+  <!-- GitHub Streak Stats -->
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Zburgers&theme=transparent&hide_border=true&ring=3399FF&fire=3399FF&currStreakLabel=3399FF&sideLabels=999999&dates=666666&currStreakNum=999999&sideNums=999999" alt="GitHub Streak Stats"/>
+
+</div>
+
+<br/>
+
+<!-- Snake Animation -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Zburgers/Zburgers/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Zburgers/Zburgers/blob/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake animation" src="https://github.com/Zburgers/Zburgers/blob/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+---
+
+<!-- Spotify Now Playing Section -->
+## 🎧 Now Playing
+
+<!-- 
+🎵 SPOTIFY INTEGRATION SETUP:
+To enable Spotify "Now Playing" widget:
+1. Go to https://github.com/novatorem/novatorem
+2. Fork the repository
+3. Follow the setup instructions to get your Vercel deployment
+4. Replace the placeholder below with your widget URL
+
+Example:
+<img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_USER_ID&cover_image=true&theme=novatorem" />
+-->
+
+<div align="center">
+  <a href="https://open.spotify.com/user/YOUR_SPOTIFY_ID">
+    <img src="https://img.shields.io/badge/Spotify-Click%20to%20Setup-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
   </a>
+  <br/>
+  <sub><i>🎵 Connect your Spotify to show what you're listening to!</i></sub>
+</div>
+
+---
+
+<!-- Quote Section -->
+## 💭 Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20invent%20it.&author=Alan%20Kay" alt="Dev Quote"/>
+</div>
+
+---
+
+<!-- Connect Section -->
+## 🌐 Let's Connect
+
+<div align="center">
+  
+  <a href="https://portfolio-next-os.vercel.app/">
+    <img src="https://img.shields.io/badge/🖥️_Portfolio-Visit%20My%20OS--Style%20Site-00C853?style=for-the-badge" alt="Portfolio"/>
+  </a>
+  
+  <br/><br/>
+  
+  <a href="https://linkedin.com/in/nakshatra-kundlas-7a33a9170">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:nakshatra.kundlas@outlook.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/Zburgers">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+
+</div>
+
+---
+
+<div align="center">
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3399FF&height=100&section=footer" alt="Footer Wave"/>
+  
+  <br/>
+  
+  **Made with 💙 on Fedora Linux 🐧**
+  
+  <sub>⭐ Star my repos if you find them interesting!</sub>
+
 </div>
