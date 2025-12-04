@@ -40,7 +40,7 @@ class Nakshatra(Engineer):
     def __init__(self):
         self.name = "Nakshatra Kundlas"
         self.role = "AI & Data Science Engineer"
-        self.university = "Shiv Nadar University, Chennai"
+        self.university = "Shiv Nadar University Chennai, B.Tech AI&DS"
         self.os = "Fedora Linux 🐧"  # Daily driver, btw
         self.main_stack = ["Deep Learning", "Next.js / MERN", "Cloud Native"]
         self.current_focus = "Solving complex problems with Agentic AI"
@@ -56,9 +56,11 @@ class Nakshatra(Engineer):
     
     def get_certifications(self) -> list:
         return [
-            "🔥 PyTorch & Deep Learning (Linux Foundation)",
-            "☁️ Prompt Design in Vertex AI (Google Cloud)",
-            "🤖 Machine Learning with Python (freeCodeCamp)"
+            "🔥 PyTorch & Deep Learning for Decision Makers (Linux Foundation)",
+            "☁️ Prompt Design in Vertex AI Skill Badge (Google Cloud)",
+            "🤖 Machine Learning with Python (freeCodeCamp)",
+            "🛡️ Responsible and Safe AI Systems (NPTEL)",
+            "🔗 Blockchain and its Applications (NPTEL)"
         ]
 ```
 
@@ -119,10 +121,11 @@ class Nakshatra(Engineer):
 
 ### 📜 Certifications
 
-🔥 PyTorch & Deep Learning *(Linux Foundation)*  
+🔥 PyTorch & Deep Learning for Decision Makers *(Linux Foundation)*  
 ☁️ Prompt Design in Vertex AI *(Google Cloud)*  
 🤖 Machine Learning with Python *(freeCodeCamp)*  
-🧠 Deep Learning Specialization *(DeepLearning.AI)*  
+🛡️ Responsible and Safe AI Systems *(NPTEL)*  
+🔗 Blockchain and its Applications *(NPTEL)*  
 
 </td>
 </tr>
@@ -163,29 +166,6 @@ class Nakshatra(Engineer):
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/Zburgers/Zburgers/blob/output/github-contribution-grid-snake.svg" />
     <img alt="Snake animation" src="https://github.com/Zburgers/Zburgers/blob/output/github-contribution-grid-snake.svg" />
   </picture>
-</div>
-
----
-
-<!-- Spotify Now Playing Section -->
-## 🎧 Now Playing
-
-<!-- 
-🎵 SPOTIFY INTEGRATION SETUP:
-To enable Spotify "Now Playing" widget:
-1. Go to https://github.com/novatorem/novatorem
-2. Fork the repository
-3. Follow the setup instructions to get your Vercel deployment
-4. Replace the placeholder below with your widget URL
-
-Example:
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_USER_ID&cover_image=true&theme=novatorem" />
--->
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Spotify-Setup%20Instructions%20Above-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
-  <br/>
-  <sub><i>🎵 Follow the instructions in the comment above to connect your Spotify!</i></sub>
 </div>
 
 ---
