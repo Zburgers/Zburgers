@@ -122,7 +122,7 @@ class Nakshatra(Engineer):
 ### 📜 Certifications
 
 🔥 PyTorch & Deep Learning for Decision Makers *(Linux Foundation)*  
-☁️ Prompt Design in Vertex AI *(Google Cloud)*  
+☁️ Prompt Design in Vertex AI Skill Badge *(Google Cloud)*  
 🤖 Machine Learning with Python *(freeCodeCamp)*  
 🛡️ Responsible and Safe AI Systems *(NPTEL)*  
 🔗 Blockchain and its Applications *(NPTEL)*  
