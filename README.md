@@ -183,11 +183,9 @@ Example:
 -->
 
 <div align="center">
-  <a href="https://open.spotify.com/user/YOUR_SPOTIFY_ID">
-    <img src="https://img.shields.io/badge/Spotify-Click%20to%20Setup-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
-  </a>
+  <img src="https://img.shields.io/badge/Spotify-Setup%20Instructions%20Above-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
   <br/>
-  <sub><i>🎵 Connect your Spotify to show what you're listening to!</i></sub>
+  <sub><i>🎵 Follow the instructions in the comment above to connect your Spotify!</i></sub>
 </div>
 
 ---
@@ -217,7 +215,7 @@ Example:
   </a>
   &nbsp;
   <a href="mailto:nakshatra.kundlas@outlook.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/>
   </a>
   &nbsp;
   <a href="https://github.com/Zburgers">
