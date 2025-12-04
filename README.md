@@ -111,8 +111,8 @@ class Nakshatra(Engineer):
 
 ### 🎖️ Achievements
   
-🥇 **Hackathon Winner** - Electrothon 7.0 (WasteWise)  
-🌟 **Open Source Contributor** - YSOC  
+🥇 **Hackathon Winner** - Apex Hacks II (WasteWise)  
+🌟 **Open Source Contributor** - Y-SoC  
 🏥 **Google AI in Action** - HealthTrack AI Featured  
 🐧 **Linux Enthusiast** - Daily Driving Fedora  
 
