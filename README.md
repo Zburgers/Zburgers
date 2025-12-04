@@ -51,7 +51,7 @@ class Nakshatra(Engineer):
             "os": "Fedora Linux (Daily Driver)",
             "security": "CTFs & Breaking Code",
             "community": "Open Source Contributor",
-            "fun_fact": "I mass mass mass 🚀"
+            "fun_fact": "I break things to understand them better 🚀"
         }
     
     def get_certifications(self) -> list:
