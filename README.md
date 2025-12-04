@@ -39,7 +39,7 @@ class Nakshatra(Engineer):
     
     def __init__(self):
         self.name = "Nakshatra Kundlas"
-        self.role = "AI & Data Science Undergrad"
+        self.role = "AI & Data Science Engineer"
         self.university = "Shiv Nadar University, Chennai"
         self.os = "Fedora Linux 🐧"  # Daily driver, btw
         self.main_stack = ["Deep Learning", "Next.js / MERN", "Cloud Native"]
