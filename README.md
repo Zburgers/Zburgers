@@ -213,7 +213,7 @@ class Nakshatra(Engineer):
   
   <br/>
   
-  **Made with 💙 **
+  Made with 💙 and Redbull
   
   <sub>⭐ Star my repos if you find them interesting!</sub>
 
