@@ -213,7 +213,7 @@ class Nakshatra(Engineer):
   
   <br/>
   
-  **Made with 💙 on Fedora Linux 🐧**
+  **Made with 💙 **
   
   <sub>⭐ Star my repos if you find them interesting!</sub>
 
