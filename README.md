@@ -6,6 +6,8 @@
 
 
   <br/>
+
+---
   
   <!-- Quick Links & Identity Badges -->
   <p>
@@ -74,6 +76,7 @@ class Nakshatra(Engineer):
 
 | Project & Impact | Tech Stack |
 |:---|:---|
+| **[☁️ SandLabX](https://github.com/Zburgers/SandlabsX)** <br/> Production-ready browser-based network virtualization. <br/> • **Bare-metal performance** via QEMU/KVM & QCOW2 overlays <br/> • HTML5 Consoles (VNC/Serial) via **Apache Guacamole** integration <br/> • Real-time topology designer with Dockerized architecture | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js) ![QEMU](https://img.shields.io/badge/QEMU%2FKVM-FF6600?style=flat-square&logo=qemu&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Guacamole](https://img.shields.io/badge/Guacamole-C1272D?style=flat-square&logo=apache&logoColor=white) |
 | **[🩺 HealthTrack AI](https://github.com/Zburgers/HealthTrack-AI)** <br/> Cloud-native clinical workflow automation. <br/> • Reduced documentation time by **85%** via automated ICD-10 coding <br/> • BioBERT & Vector Search for patient analytics <br/> • HIPAA-compliant architecture with RBAC | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 | **[♻️ WasteWise](https://github.com/Zburgers/WasteWise)** 🏆 *Hackathon Winner* <br/> AI-powered gamified waste management. <br/> • AI Image Classifier for real-time disposal advice <br/> • Web3 rewards system with NFT minting <br/> • Scalable full-stack application | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
 | **[🚨 SentientAI](https://github.com/Zburgers/SentientAI)** <br/> Advanced Hybrid DDoS Detection System. <br/> • Fused CNN-LSTM + XGBoost for intrusion detection <br/> • **92%+ accuracy** on network threats <br/> • Real-time threat visualization dashboard | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
