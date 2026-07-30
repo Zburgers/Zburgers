@@ -68,6 +68,60 @@ def truncate(value: str, limit: int) -> str:
     return clean[: max(0, limit - 1)].rstrip() + "…"
 
 
+def wrap_lines(value: str, limit: int, max_lines: int) -> list[str]:
+    clean = " ".join(value.split())
+    if not clean:
+        return []
+
+    words = clean.split(" ")
+    lines: list[str] = []
+    current = ""
+    index = 0
+
+    while index < len(words):
+        word = words[index]
+        candidate = word if not current else f"{current} {word}"
+        if len(candidate) <= limit:
+            current = candidate
+            index += 1
+            continue
+
+        if current:
+            lines.append(current)
+            current = ""
+        else:
+            lines.append(truncate(word, limit))
+            index += 1
+
+        if len(lines) == max_lines:
+            break
+
+    if len(lines) < max_lines and current:
+        lines.append(current)
+
+    if index < len(words):
+        if not lines:
+            lines = [truncate(clean, limit)]
+        else:
+            lines[-1] = truncate(lines[-1], max(1, limit - 1))
+            if not lines[-1].endswith("…"):
+                lines[-1] += "…"
+
+    return lines[:max_lines]
+
+
+def svg_text_block(x: int, y: int, css_class: str, lines: list[str], line_height: int) -> str:
+    if not lines:
+        return ""
+
+    tspans = []
+    for index, line in enumerate(lines):
+        dy = 0 if index == 0 else line_height
+        tspans.append(f'<tspan x="{x}" dy="{dy}">{escape(line)}</tspan>')
+
+    return f'<text x="{x}" y="{y}" class="mono {css_class}">{"".join(tspans)}</text>'
+
+
 def github_json(path: str) -> Any:
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     headers = {
@@ -123,49 +177,51 @@ def recently_shipped_svg(items: list[dict[str, Any]]) -> str:
     for index, item in enumerate(cards):
         x = 28 + index * 296
         release = item["release"]
+        summary_lines = wrap_lines(item["summary"], 34, 2)
+        title_lines = wrap_lines(release["title"], 34, 2)
         card_markup.append(
             f"""
-  <rect x="{x}" y="92" width="272" height="164" rx="11" fill="#161B22" stroke="#30363D"/>
-  <text x="{x + 20}" y="122" class="mono project">{escape(truncate(item['name'], 24))}</text>
-  <text x="{x + 20}" y="146" class="mono version">{escape(truncate(release['tag'], 25))}</text>
-  <text x="{x + 20}" y="174" class="mono body">{escape(truncate(item['summary'], 32))}</text>
-  <text x="{x + 20}" y="195" class="mono body">{escape(truncate(release['title'], 31))}</text>
-  <text x="{x + 20}" y="229" class="mono muted">{escape(truncate(item['signal'], 37))}</text>"""
+  <rect x=\"{x}\" y=\"92\" width=\"272\" height=\"164\" rx=\"11\" fill=\"#161B22\" stroke=\"#30363D\"/>
+  <text x=\"{x + 20}\" y=\"122\" class=\"mono project\">{escape(truncate(item['name'], 24))}</text>
+  <text x=\"{x + 20}\" y=\"146\" class=\"mono version\">{escape(truncate(release['tag'], 25))}</text>
+  {svg_text_block(x + 20, 174, "body", summary_lines, 16)}
+  {svg_text_block(x + 20, 214, "body", title_lines, 16)}
+  <text x=\"{x + 20}\" y=\"246\" class=\"mono muted\">{escape(truncate(item['signal'], 34))}</text>"""
         )
 
-    return f"""<svg width="920" height="290" viewBox="0 0 920 290" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Recently shipped projects</title>
-  <desc id="desc">The three most recent stable GitHub releases across Nakshatra's selected projects.</desc>
+    return f"""<svg width=\"920\" height=\"290\" viewBox=\"0 0 920 290\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-labelledby=\"title desc\">
+  <title id=\"title\">Recently shipped projects</title>
+  <desc id=\"desc\">The three most recent stable GitHub releases across Nakshatra's selected projects.</desc>
   <defs>
-    <linearGradient id="frame" x1="0" y1="0" x2="920" y2="290" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2388FF" stop-opacity="0.8"/><stop offset="0.48" stop-color="#30363D"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0.55"/>
+    <linearGradient id=\"frame\" x1=\"0\" y1=\"0\" x2=\"920\" y2=\"290\" gradientUnits=\"userSpaceOnUse\">
+      <stop stop-color=\"#2388FF\" stop-opacity=\"0.8\"/><stop offset=\"0.48\" stop-color=\"#30363D\"/><stop offset=\"1\" stop-color=\"#58A6FF\" stop-opacity=\"0.55\"/>
     </linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="180" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#58A6FF" stop-opacity="0"/><stop offset="0.5" stop-color="#58A6FF" stop-opacity="0.12"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
+    <linearGradient id=\"scan\" x1=\"0\" y1=\"0\" x2=\"180\" y2=\"0\" gradientUnits=\"userSpaceOnUse\">
+      <stop stop-color=\"#58A6FF\" stop-opacity=\"0\"/><stop offset=\"0.5\" stop-color=\"#58A6FF\" stop-opacity=\"0.12\"/><stop offset=\"1\" stop-color=\"#58A6FF\" stop-opacity=\"0\"/>
     </linearGradient>
   </defs>
   <style>
-    .mono {{ font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; }}
+    .mono {{ font-family: \"JetBrains Mono\", \"SFMono-Regular\", Consolas, monospace; }}
     .title {{ fill: #F0F6FC; font-size: 20px; font-weight: 700; }}
     .kicker {{ fill: #58A6FF; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; }}
     .project {{ fill: #F0F6FC; font-size: 17px; font-weight: 700; }}
     .version {{ fill: #79C0FF; font-size: 13px; font-weight: 700; }}
     .body {{ fill: #B1BAC4; font-size: 11.5px; }}
-    .muted {{ fill: #8B949E; font-size: 11px; }}
+    .muted {{ fill: #8B949E; font-size: 10.5px; }}
     .scanline {{ animation: travel 8s linear infinite; }}
     .dot {{ animation: pulse 1.8s ease-in-out infinite; transform-origin: center; }}
     @keyframes travel {{ from {{ transform: translateX(-200px); }} to {{ transform: translateX(1120px); }} }}
     @keyframes pulse {{ 0%, 100% {{ opacity: .35; }} 50% {{ opacity: 1; }} }}
     @media (prefers-reduced-motion: reduce) {{ .scanline, .dot {{ animation: none; }} }}
   </style>
-  <rect x="0.75" y="0.75" width="918.5" height="288.5" rx="14" fill="#0D1117" stroke="url(#frame)" stroke-width="1.5"/>
-  <rect class="scanline" x="0" y="1" width="180" height="288" fill="url(#scan)"/>
-  <text x="28" y="38" class="mono kicker">RECENTLY SHIPPED</text>
-  <text x="28" y="67" class="mono title">Public releases with runnable artifacts and evidence</text>
-  <circle cx="881" cy="31" r="4" fill="#3FB950" class="dot"/>
-  <text x="868" y="35" text-anchor="end" class="mono muted">AUTO-SYNC</text>
+  <rect x=\"0.75\" y=\"0.75\" width=\"918.5\" height=\"288.5\" rx=\"14\" fill=\"#0D1117\" stroke=\"url(#frame)\" stroke-width=\"1.5\"/>
+  <rect class=\"scanline\" x=\"0\" y=\"1\" width=\"180\" height=\"288\" fill=\"url(#scan)\"/>
+  <text x=\"28\" y=\"38\" class=\"mono kicker\">RECENTLY SHIPPED</text>
+  <text x=\"28\" y=\"67\" class=\"mono title\">Public releases with runnable artifacts and evidence</text>
+  <circle cx=\"881\" cy=\"31\" r=\"4\" fill=\"#3FB950\" class=\"dot\"/>
+  <text x=\"868\" y=\"35\" text-anchor=\"end\" class=\"mono muted\">AUTO-SYNC</text>
 {''.join(card_markup)}
-  <text x="460" y="278" text-anchor="middle" class="mono muted">Synchronized from stable releases published across the selected repositories.</text>
+  <text x=\"460\" y=\"278\" text-anchor=\"middle\" class=\"mono muted\">Synchronized from stable releases published across the selected repositories.</text>
 </svg>
 """
 
@@ -179,18 +235,18 @@ def release_strip_svg(items: list[dict[str, Any]]) -> str:
         tag = item["release"]["tag"] if item["release"] else "active development"
         pills.append(
             f"""
-  <g transform="translate({x} {y})">
-    <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
-    <text x="14" y="19" class="mono name">{escape(truncate(item['name'], 24))}</text>
-    <text x="14" y="36" class="mono tag">{escape(truncate(tag, 30))}</text>
+  <g transform=\"translate({x} {y})\">
+    <rect width=\"276\" height=\"45\" rx=\"9\" fill=\"#161B22\" stroke=\"#30363D\"/>
+    <text x=\"14\" y=\"19\" class=\"mono name\">{escape(truncate(item['name'], 24))}</text>
+    <text x=\"14\" y=\"36\" class=\"mono tag\">{escape(truncate(tag, 30))}</text>
   </g>"""
         )
 
-    return f"""<svg width="920" height="168" viewBox="0 0 920 168" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Live release radar</title>
-  <desc id="desc">Stable release status across Nakshatra's selected public projects.</desc>
+    return f"""<svg width=\"920\" height=\"168\" viewBox=\"0 0 920 168\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-labelledby=\"title desc\">
+  <title id=\"title\">Live release radar</title>
+  <desc id=\"desc\">Stable release status across Nakshatra's selected public projects.</desc>
   <style>
-    .mono {{ font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; }}
+    .mono {{ font-family: \"JetBrains Mono\", \"SFMono-Regular\", Consolas, monospace; }}
     .heading {{ fill: #8B949E; font-size: 11px; font-weight: 700; letter-spacing: 1.7px; }}
     .name {{ fill: #F0F6FC; font-size: 13px; font-weight: 700; }}
     .tag {{ fill: #79C0FF; font-size: 12px; }}
@@ -198,9 +254,9 @@ def release_strip_svg(items: list[dict[str, Any]]) -> str:
     @keyframes pulse {{ 0%, 100% {{ opacity: .35; transform: scale(.85); }} 50% {{ opacity: 1; transform: scale(1.15); }} }}
     @media (prefers-reduced-motion: reduce) {{ .live {{ animation: none; }} }}
   </style>
-  <rect x="0.75" y="0.75" width="918.5" height="166.5" rx="13" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
-  <text x="24" y="28" class="mono heading">LIVE RELEASE RADAR · AUTO-REFRESHED DAILY</text>
-  <circle cx="888" cy="24" r="4" fill="#3FB950" class="live"/>
+  <rect x=\"0.75\" y=\"0.75\" width=\"918.5\" height=\"166.5\" rx=\"13\" fill=\"#0D1117\" stroke=\"#30363D\" stroke-width=\"1.5\"/>
+  <text x=\"24\" y=\"28\" class=\"mono heading\">LIVE RELEASE RADAR · AUTO-REFRESHED DAILY</text>
+  <circle cx=\"888\" cy=\"24\" r=\"4\" fill=\"#3FB950\" class=\"live\"/>
 {''.join(pills)}
 </svg>
 """
