@@ -128,8 +128,8 @@ def recently_shipped_svg(items: list[dict[str, Any]]) -> str:
   <rect x="{x}" y="92" width="272" height="164" rx="11" fill="#161B22" stroke="#30363D"/>
   <text x="{x + 20}" y="122" class="mono project">{escape(truncate(item['name'], 24))}</text>
   <text x="{x + 20}" y="146" class="mono version">{escape(truncate(release['tag'], 25))}</text>
-  <text x="{x + 20}" y="174" class="mono body">{escape(truncate(item['summary'], 38))}</text>
-  <text x="{x + 20}" y="195" class="mono body">{escape(truncate(release['title'], 38))}</text>
+  <text x="{x + 20}" y="174" class="mono body">{escape(truncate(item['summary'], 32))}</text>
+  <text x="{x + 20}" y="195" class="mono body">{escape(truncate(release['title'], 31))}</text>
   <text x="{x + 20}" y="229" class="mono muted">{escape(truncate(item['signal'], 37))}</text>"""
         )
 
@@ -150,7 +150,7 @@ def recently_shipped_svg(items: list[dict[str, Any]]) -> str:
     .kicker {{ fill: #58A6FF; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; }}
     .project {{ fill: #F0F6FC; font-size: 17px; font-weight: 700; }}
     .version {{ fill: #79C0FF; font-size: 13px; font-weight: 700; }}
-    .body {{ fill: #B1BAC4; font-size: 12.5px; }}
+    .body {{ fill: #B1BAC4; font-size: 11.5px; }}
     .muted {{ fill: #8B949E; font-size: 11px; }}
     .scanline {{ animation: travel 8s linear infinite; }}
     .dot {{ animation: pulse 1.8s ease-in-out infinite; transform-origin: center; }}
