@@ -1,6 +1,6 @@
 <svg width="920" height="168" viewBox="0 0 920 168" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Live release radar</title>
-  <desc id="desc">Release status for selected Nakshatra projects. Updated automatically by GitHub Actions.</desc>
+  <desc id="desc">Stable release status across Nakshatra's selected public projects.</desc>
   <style>
     .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; }
     .heading { fill: #8B949E; font-size: 11px; font-weight: 700; letter-spacing: 1.7px; }
@@ -22,14 +22,13 @@
   <g transform="translate(322 45)">
     <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
     <text x="14" y="19" class="mono name">mdview</text>
-    <text x="14" y="36" class="mono tag">latest stable</text>
+    <text x="14" y="36" class="mono tag">v1.2.3</text>
   </g>
   <g transform="translate(620 45)">
     <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
     <text x="14" y="19" class="mono name">FlashRL</text>
     <text x="14" y="36" class="mono tag">v2.0.0</text>
   </g>
-
   <g transform="translate(24 105)">
     <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
     <text x="14" y="19" class="mono name">SandLabX</text>
