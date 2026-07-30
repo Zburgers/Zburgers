@@ -1,223 +1,163 @@
-<!-- Header Section with Dynamic Typing -->
 <div align="center">
-  
-  <!-- Animated Typing Header -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=32&duration=3000&pause=1000&color=3399FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=180&lines=%F0%9F%91%8B+Hey%2C+I'm+Nakshatra+Kundlas;AI+%26+Data+Science+Engineer;Daily+Driving+Fedora+%26+Breaking+Code;Architecting+Scalable+Intelligence" alt="Typing SVG" />
 
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=27&duration=2600&pause=900&color=3399FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=165&lines=%F0%9F%91%8B+Hey%2C+I'm+Nakshatra+Kundlas;AI+Systems+Engineer+%26+Product+Builder;Building+Reliable+Agents%2C+Local-First+Tools+%26+Data+Products" alt="Nakshatra Kundlas — AI Systems Engineer and Product Builder" />
 
   <br/>
 
----
-  
-  <!-- Quick Links & Identity Badges -->
-  <p>
-    <a href="https://github.com/Zburgers">
-      <img src="https://img.shields.io/badge/Focus-GenAI%20%26%20System%20Design-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Focus Badge"/>
-    </a>
-    <a href="https://getfedora.org/">
-      <img src="https://img.shields.io/badge/OS-Fedora%20Linux%20%F0%9F%90%A7-51A2DA?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora Badge"/>
-    </a>
-    <a href="https://portfolio-next-os.vercel.app/">
-      <img src="https://img.shields.io/badge/Portfolio-Live%20Demo-00C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Badge"/>
-    </a>
-  </p>
-  
-  <!-- Profile Views Counter -->
-  <img src="https://komarev.com/ghpvc/?username=Zburgers&style=for-the-badge&color=3399FF&label=Profile+Views" alt="Profile Views"/>
-  
-</div>
-
-<br/>
-
----
-
-<!-- system_profile.py - Python Class Style Bio -->
-## 💻 `system_profile.py`
-
-```python
-class Nakshatra(Engineer):
-    """
-    AI & Data Science Engineer | Full Stack Developer | Open Source Enthusiast
-    """
-    
-    def __init__(self):
-        self.name = "Nakshatra Kundlas"
-        self.role = "AI & Data Science Engineer"
-        self.university = "Shiv Nadar University Chennai, B.Tech AI&DS"
-        self.os = "Fedora Linux 🐧"  # Daily driver, btw
-        self.main_stack = ["Deep Learning", "Next.js / MERN", "Cloud Native"]
-        self.current_focus = "Solving complex problems with Agentic AI"
-        
-    def side_quests(self) -> dict:
-        """The hacker side of me."""
-        return {
-            "os": "Fedora Linux (Daily Driver)",
-            "security": "CTFs & Breaking Code",
-            "community": "Open Source Contributor",
-            "fun_fact": "I break things to understand them better 🚀"
-        }
-    
-    def get_certifications(self) -> list:
-        return [
-            "🔥 PyTorch & Deep Learning for Decision Makers (Linux Foundation)",
-            "☁️ Prompt Design in Vertex AI Skill Badge (Google Cloud)",
-            "🤖 Machine Learning with Python (freeCodeCamp)",
-            "🛡️ Responsible and Safe AI Systems (NPTEL)",
-            "🔗 Blockchain and its Applications (NPTEL)"
-        ]
-```
-
----
-
-<!-- Featured Projects Section -->
-## 🚀 Flagship Projects
-
-<div align="center">
-
-| Project & Impact | Tech Stack |
-|:---|:---|
-| **[☁️ SandLabX](https://github.com/Zburgers/SandlabsX)** <br/> Production-ready browser-based network virtualization. <br/> • **Bare-metal performance** via QEMU/KVM & QCOW2 overlays <br/> • HTML5 Consoles (VNC/Serial) via **Apache Guacamole** integration <br/> • Real-time topology designer with Dockerized architecture | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js) ![QEMU](https://img.shields.io/badge/QEMU%2FKVM-FF6600?style=flat-square&logo=qemu&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Guacamole](https://img.shields.io/badge/Guacamole-C1272D?style=flat-square&logo=apache&logoColor=white) |
-| **[🩺 HealthTrack AI](https://github.com/Zburgers/HealthTrack-AI)** <br/> Cloud-native clinical workflow automation. <br/> • Reduced documentation time by **85%** via automated ICD-10 coding <br/> • BioBERT & Vector Search for patient analytics <br/> • HIPAA-compliant architecture with RBAC | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| **[♻️ WasteWise](https://github.com/Zburgers/WasteWise)** 🏆 *Hackathon Winner* <br/> AI-powered gamified waste management. <br/> • AI Image Classifier for real-time disposal advice <br/> • Web3 rewards system with NFT minting <br/> • Scalable full-stack application | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| **[🚨 SentientAI](https://github.com/Zburgers/SentientAI)** <br/> Advanced Hybrid DDoS Detection System. <br/> • Fused CNN-LSTM + XGBoost for intrusion detection <br/> • **92%+ accuracy** on network threats <br/> • Real-time threat visualization dashboard | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
-| **[🖥️ Portfolio OS](https://portfolio-next-os.vercel.app/)** <br/> Desktop OS-style portfolio website. <br/> • Full window management system <br/> • Glassmorphism UI with smooth animations <br/> • Built-in terminal, file browser & more | ![Next.js](https://img.shields.io/badge/Next.js%2015-000?style=flat-square&logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind%20v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Framer](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white) |
-
-</div>
-
----
-
-<!-- Tech Arsenal Section -->
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-| **🧠 Generative AI & Data** | **⚡ Full Stack Engineering** | **🔧 DevOps & Security** |
-|:---:|:---:|:---:|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
-| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white) |
-| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) |
-| ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) | ![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) |
-| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
-| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) |
-
-</div>
-
----
-
-<!-- Achievements Section -->
-## 🏆 Achievements & Certifications
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-### 🎖️ Achievements
-  
-🥇 **Hackathon Winner** - Apex Hacks II (WasteWise)  
-🌟 **Open Source Contributor** - Y-SoC  
-🏥 **Google AI in Action** - HealthTrack AI Featured  
-🐧 **Linux Enthusiast** - Daily Driving Fedora  
-
-</td>
-<td align="center" width="50%">
-
-### 📜 Certifications
-
-🔥 PyTorch & Deep Learning for Decision Makers *(Linux Foundation)*  
-☁️ Prompt Design in Vertex AI Skill Badge *(Google Cloud)*  
-🤖 Machine Learning with Python *(freeCodeCamp)*  
-🛡️ Responsible and Safe AI Systems *(NPTEL)*  
-🔗 Blockchain and its Applications *(NPTEL)*  
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<!-- GitHub Stats Section -->
-## 📊 GitHub Analytics
-
-<div align="center">
-  
-  <!-- GitHub Stats Card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Zburgers&show_icons=true&theme=transparent&hide_border=true&title_color=3399FF&text_color=999999&icon_color=3399FF&count_private=true&include_all_commits=true" height="165" alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zburgers&layout=compact&theme=transparent&hide_border=true&title_color=3399FF&text_color=999999" height="165" alt="Top Languages"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-  
-  <!-- GitHub Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Zburgers&theme=transparent&hide_border=true&ring=3399FF&fire=3399FF&currStreakLabel=3399FF&sideLabels=999999&dates=666666&currStreakNum=999999&sideNums=999999" alt="GitHub Streak Stats"/>
-
-</div>
-
-<br/>
-
-<!-- Snake Animation -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Zburgers/Zburgers/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Zburgers/Zburgers/blob/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://github.com/Zburgers/Zburgers/blob/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
----
-
-<!-- Quote Section -->
-## 💭 Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20invent%20it.&author=Alan%20Kay" alt="Dev Quote"/>
-</div>
-
----
-
-<!-- Connect Section -->
-## 🌐 Let's Connect
-
-<div align="center">
-  
-  <a href="https://portfolio-next-os.vercel.app/">
-    <img src="https://img.shields.io/badge/🖥️_Portfolio-Visit%20My%20OS--Style%20Site-00C853?style=for-the-badge" alt="Portfolio"/>
+  <a href="https://github.com/Zburgers/agent-os">
+    <img src="https://img.shields.io/badge/FOCUS-Reliable%20AI%20Systems-0D1117?style=for-the-badge&logo=openai&logoColor=white" alt="Focus: Reliable AI Systems"/>
   </a>
-  
+  <a href="https://github.com/Zburgers/vibevoice">
+    <img src="https://img.shields.io/badge/BUILD-Local--First%20Tools-2388FF?style=for-the-badge&logo=linux&logoColor=white" alt="Build: Local-First Tools"/>
+  </a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AZburgers+is%3Apublic">
+    <img src="https://img.shields.io/badge/OPEN%20SOURCE-Contributor-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Contributor"/>
+  </a>
+
   <br/><br/>
-  
+
+  <img src="./assets/terminal.svg" width="100%" alt="Animated terminal summary of Nakshatra's current engineering focus"/>
+
+</div>
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## About
+
+I build **reliable AI systems, local-first desktop software, and full-stack products**. My recent work spans agent operations, workflow reliability, developer tooling, privacy-conscious applications, reproducible reinforcement-learning research, and production-minded QA.
+
+I care about software that is understandable, testable, and genuinely useful—not feature volume for its own sake. I also contribute to open-source projects through issue research, focused fixes, testing, and documentation.
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## Recently shipped
+
+<div align="center">
+  <img src="./assets/recently-shipped.svg" width="100%" alt="Recently shipped public releases"/>
+  <br/><br/>
+  <img src="./assets/release-strip.svg" width="100%" alt="Live release status across selected projects"/>
+</div>
+
+<div align="center">
+
+[![VibeVoice release](https://img.shields.io/github/v/release/Zburgers/vibevoice?display_name=tag&style=flat-square&label=VibeVoice&color=2388FF)](https://github.com/Zburgers/vibevoice/releases/latest)
+[![mdview release](https://img.shields.io/github/v/release/Zburgers/mdview?display_name=tag&style=flat-square&label=mdview&color=2388FF)](https://github.com/Zburgers/mdview/releases/latest)
+[![FlashRL release](https://img.shields.io/github/v/release/Zburgers/FlashRL?display_name=tag&style=flat-square&label=FlashRL&color=2388FF)](https://github.com/Zburgers/FlashRL/releases/latest)
+
+</div>
+
+> The two cards above are generated from published GitHub Releases and refreshed automatically by a scheduled workflow.
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## Selected work
+
+| Project | What I am building |
+|:---|:---|
+| **[VibeVoice](https://github.com/Zburgers/vibevoice)** | A local-first desktop voice-input tool for developers using Tauri and `whisper.cpp`, with configurable dictation controls, developer-term cleanup, diagnostics, privacy-conscious history, and cross-platform release support. |
+| **[mdview](https://github.com/Zburgers/mdview)** | A fast, local-first Markdown reader for Linux, Windows, and macOS with reader/source/split modes, Mermaid rendering, safe HTML handling, themes, tabs, search, PDF-friendly printing, and signed update support. |
+| **[cb-connect](https://github.com/Zburgers/cb-connect)** | A private, consent-first couples support application for cycle context, body and pain check-ins, relationship signals, and timely support—designed around privacy and careful product boundaries. |
+| **[SandLabX](https://github.com/Zburgers/SandlabsX)** | A self-hosted network and systems lab platform built around QEMU/KVM, QCOW2 overlays, Apache Guacamole, PostgreSQL, browser consoles, visual topology editing, and deterministic lab definitions. |
+| **[Goofy Agent OS](https://github.com/Zburgers/agent-os)** | A self-hosted control plane for reliable AI-agent and workflow operations with durable state, approvals, idempotency, payment and wallet boundaries, pause/kill controls, and auditability. [Read the reliability case study](https://github.com/Zburgers/agent-os/blob/main/docs/CASE_STUDY_AUTOMATION_RELIABILITY.md). |
+| **[FlashRL](https://github.com/Zburgers/FlashRL)** | A reproducible reinforcement-learning research benchmark built around a deterministic Dino simulator, exact frame budgets, held-out multi-seed evaluation, traceable artifacts, and a live policy laboratory. |
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## Engineering evidence
+
+| Area | Evidence |
+|:---|:---|
+| **Shipping** | Cross-platform desktop applications with installable releases, release notes, diagnostics, update paths, and reproducible build checks. |
+| **Reliability** | Explicit approval boundaries, idempotent operations, durable state, bounded retries, audit trails, and failure-aware workflow design. |
+| **Evaluation** | Deterministic experiments, held-out test seeds, regression suites, scorecards, traceable artifacts, and claims scoped to measured evidence. |
+| **Systems** | Linux-first development, Dockerized services, PostgreSQL-backed applications, virtualization tooling, CI workflows, and self-hosted infrastructure. |
+| **Open source** | Issue investigation, minimal fixes, regression testing, implementation planning, documentation, and review across public repositories. |
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## Open source and current focus
+
+I am currently focused on:
+
+- Building dependable personal-agent infrastructure through **Goofy Agent OS**.
+- Shipping and hardening **VibeVoice** and **mdview** as real desktop products.
+- Improving **cb-connect** carefully around privacy, notification delivery, and prediction quality.
+- Contributing focused fixes and issue research across open-source reliability and developer-tooling projects.
+- Expanding reproducible agent and reinforcement-learning evaluation workflows.
+
+[View my public pull requests](https://github.com/pulls?q=is%3Apr+author%3AZburgers+is%3Apublic) · [Browse all repositories](https://github.com/Zburgers?tab=repositories)
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## Lab notes and writing
+
+### [Nakshatra NeuraTech Blog](https://blog.nakshatraneuratech.dev)
+
+My personal engineering blog for build logs, system-design notes, experiments, release retrospectives, and lessons from shipping AI products. It is currently a work in progress, but the public home is live.
+
+### [UnderCurrent AI](https://github.com/Zburgers/Undercurrent-AI)
+
+A local-first, one-video YouTube intelligence experiment exploring evidence-backed extraction, analysis workflows, and a focused dashboard experience.
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## Core stack
+
+**Languages:** `Python` · `TypeScript` · `Rust` · `Java` · `Bash`  
+**Product engineering:** `Next.js` · `React` · `FastAPI` · `Tauri` · `PostgreSQL`  
+**AI and data:** `PyTorch` · `Hugging Face` · `scikit-learn` · `Pandas` · `Vector Search`  
+**Systems:** `Linux` · `Docker` · `GitHub Actions` · `QEMU/KVM` · `Cloudflare Tunnels`
+
+<details>
+<summary><b>Selected certifications</b></summary>
+<br/>
+
+- PyTorch and Deep Learning for Decision Makers — Linux Foundation
+- Prompt Design in Vertex AI — Google Cloud
+- Responsible and Safe AI Systems — NPTEL
+- Machine Learning with Python — freeCodeCamp
+
+</details>
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## GitHub activity
+
+<div align="center">
+
+  <img src="https://github-readme-stats.vercel.app/api?username=Zburgers&show_icons=true&theme=transparent&hide_border=true&title_color=3399FF&text_color=999999&icon_color=3399FF&include_all_commits=true" height="165" alt="Nakshatra's GitHub statistics"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zburgers&layout=compact&theme=transparent&hide_border=true&title_color=3399FF&text_color=999999&langs_count=8" height="165" alt="Nakshatra's most-used public repository languages"/>
+
+  <br/><br/>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zburgers/Zburgers/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zburgers/Zburgers/output/github-contribution-grid-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/Zburgers/Zburgers/output/github-contribution-grid-snake.svg" alt="Animated contribution graph snake"/>
+  </picture>
+
+</div>
+
+<img src="./assets/section-divider.svg" width="100%" alt=""/>
+
+## Connect
+
+<div align="center">
+
+  <a href="https://blog.nakshatraneuratech.dev">
+    <img src="https://img.shields.io/badge/Blog-Read%20the%20build%20notes-2388FF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Personal blog"/>
+  </a>
   <a href="https://linkedin.com/in/nakshatra-kundlas-7a33a9170">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  &nbsp;
   <a href="mailto:nakshatra.kundlas@outlook.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/Zburgers">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/Email-Say%20hello-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/>
   </a>
 
-</div>
+  <br/><br/>
 
----
+  <img src="./assets/footer-signal.svg" width="100%" alt="Animated build, test, ship, learn footer"/>
 
-<div align="center">
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=3399FF&height=100&section=footer" alt="Footer Wave"/>
-  
-  <br/>
-  
-  Made with 💙 and Redbull
-  
-  <sub>⭐ Star my repos if you find them interesting!</sub>
+  <sub>Built on Fedora, powered by curiosity, careful engineering, and Red Bull.</sub>
 
 </div>
