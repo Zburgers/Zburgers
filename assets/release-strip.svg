@@ -1,0 +1,48 @@
+<svg width="920" height="168" viewBox="0 0 920 168" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Live release radar</title>
+  <desc id="desc">Release status for selected Nakshatra projects. Updated automatically by GitHub Actions.</desc>
+  <style>
+    .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; }
+    .heading { fill: #8B949E; font-size: 11px; font-weight: 700; letter-spacing: 1.7px; }
+    .name { fill: #F0F6FC; font-size: 13px; font-weight: 700; }
+    .tag { fill: #79C0FF; font-size: 12px; }
+    .live { animation: pulse 1.8s ease-in-out infinite; transform-origin: center; }
+    @keyframes pulse { 0%, 100% { opacity: .35; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.15); } }
+    @media (prefers-reduced-motion: reduce) { .live { animation: none; } }
+  </style>
+  <rect x="0.75" y="0.75" width="918.5" height="166.5" rx="13" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <text x="24" y="28" class="mono heading">LIVE RELEASE RADAR · AUTO-REFRESHED DAILY</text>
+  <circle cx="888" cy="24" r="4" fill="#3FB950" class="live"/>
+
+  <g transform="translate(24 45)">
+    <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
+    <text x="14" y="19" class="mono name">VibeVoice</text>
+    <text x="14" y="36" class="mono tag">v0.2.6</text>
+  </g>
+  <g transform="translate(322 45)">
+    <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
+    <text x="14" y="19" class="mono name">mdview</text>
+    <text x="14" y="36" class="mono tag">latest stable</text>
+  </g>
+  <g transform="translate(620 45)">
+    <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
+    <text x="14" y="19" class="mono name">FlashRL</text>
+    <text x="14" y="36" class="mono tag">v2.0.0</text>
+  </g>
+
+  <g transform="translate(24 105)">
+    <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
+    <text x="14" y="19" class="mono name">SandLabX</text>
+    <text x="14" y="36" class="mono tag">active development</text>
+  </g>
+  <g transform="translate(322 105)">
+    <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
+    <text x="14" y="19" class="mono name">Goofy Agent OS</text>
+    <text x="14" y="36" class="mono tag">active development</text>
+  </g>
+  <g transform="translate(620 105)">
+    <rect width="276" height="45" rx="9" fill="#161B22" stroke="#30363D"/>
+    <text x="14" y="19" class="mono name">cb-connect</text>
+    <text x="14" y="36" class="mono tag">active development</text>
+  </g>
+</svg>
