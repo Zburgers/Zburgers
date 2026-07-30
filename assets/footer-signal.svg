@@ -1,0 +1,39 @@
+<svg width="920" height="150" viewBox="0 0 920 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated build, test, ship, learn footer</title>
+  <desc id="desc">An animated blue signal wave ending the GitHub profile.</desc>
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2388FF" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#2388FF"/>
+      <stop offset="0.5" stop-color="#79C0FF"/>
+      <stop offset="0.8" stop-color="#2388FF"/>
+      <stop offset="1" stop-color="#2388FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .label { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; font-size: 14px; fill: #8B949E; letter-spacing: 1.8px; }
+    .sub { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; font-size: 12px; fill: #6E7681; }
+    .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; }
+    .cursor { animation: blink 1s steps(1, end) infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .35; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.2); } }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+    @media (prefers-color-scheme: light) { .label { fill: #57606A; } .sub { fill: #6E7781; } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .cursor { animation: none; } }
+  </style>
+
+  <path d="M0 59 C90 59 105 59 150 59 C195 59 206 26 251 26 C296 26 308 92 353 92 C398 92 410 43 455 43 C500 43 512 76 557 76 C602 76 614 58 659 58 C704 58 716 59 761 59 C806 59 830 59 920 59" stroke="url(#wave)" stroke-width="2.2" filter="url(#softGlow)">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 59 C90 59 105 59 150 59 C195 59 206 26 251 26 C296 26 308 92 353 92 C398 92 410 43 455 43 C500 43 512 76 557 76 C602 76 614 58 659 58 C704 58 716 59 761 59 C806 59 830 59 920 59;M0 59 C90 59 105 59 150 59 C195 59 206 42 251 42 C296 42 308 16 353 16 C398 16 410 94 455 94 C500 94 512 38 557 38 C602 38 614 72 659 72 C704 72 716 59 761 59 C806 59 830 59 920 59;M0 59 C90 59 105 59 150 59 C195 59 206 26 251 26 C296 26 308 92 353 92 C398 92 410 43 455 43 C500 43 512 76 557 76 C602 76 614 58 659 58 C704 58 716 59 761 59 C806 59 830 59 920 59"/>
+  </path>
+
+  <circle cx="455" cy="59" r="4" fill="#79C0FF" class="pulse" filter="url(#softGlow)"/>
+  <text x="460" y="118" text-anchor="middle" class="label">BUILD · TEST · SHIP · LEARN</text>
+  <text x="460" y="140" text-anchor="middle" class="sub">still building the next thing</text>
+  <rect x="574" y="129" width="7" height="13" rx="1" fill="#58A6FF" class="cursor"/>
+</svg>
