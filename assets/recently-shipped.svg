@@ -15,7 +15,7 @@
     .kicker { fill: #58A6FF; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; }
     .project { fill: #F0F6FC; font-size: 17px; font-weight: 700; }
     .version { fill: #79C0FF; font-size: 13px; font-weight: 700; }
-    .body { fill: #B1BAC4; font-size: 12.5px; }
+    .body { fill: #B1BAC4; font-size: 11.5px; }
     .muted { fill: #8B949E; font-size: 11px; }
     .scanline { animation: travel 8s linear infinite; }
     .dot { animation: pulse 1.8s ease-in-out infinite; transform-origin: center; }
@@ -33,20 +33,23 @@
   <rect x="28" y="92" width="272" height="164" rx="11" fill="#161B22" stroke="#30363D"/>
   <text x="48" y="122" class="mono project">FlashRL</text>
   <text x="48" y="146" class="mono version">v2.0.0</text>
-  <text x="48" y="174" class="mono body">Reproducible DQN research benchmark a…</text>
-  <text x="48" y="195" class="mono body">FlashRL 2.0.0 — Reproducible DQN Rese…</text>
+  <text x="48" y="174" class="mono body">Reproducible DQN research bench…</text>
+  <text x="48" y="195" class="mono body">FlashRL 2.0.0 — Reproducible…</text>
   <text x="48" y="229" class="mono muted">Benchmark · checkpoint · demo</text>
+
   <rect x="324" y="92" width="272" height="164" rx="11" fill="#161B22" stroke="#30363D"/>
   <text x="344" y="122" class="mono project">VibeVoice</text>
   <text x="344" y="146" class="mono version">v0.2.6</text>
-  <text x="344" y="174" class="mono body">Local-first desktop dictation with wh…</text>
+  <text x="344" y="174" class="mono body">Local-first desktop dictation…</text>
   <text x="344" y="195" class="mono body">VibeVoice v0.2.6</text>
   <text x="344" y="229" class="mono muted">Linux · Windows · macOS</text>
+
   <rect x="620" y="92" width="272" height="164" rx="11" fill="#161B22" stroke="#30363D"/>
   <text x="640" y="122" class="mono project">mdview</text>
   <text x="640" y="146" class="mono version">v1.2.3</text>
-  <text x="640" y="174" class="mono body">Fast local-first Markdown reader with…</text>
+  <text x="640" y="174" class="mono body">Fast local-first Markdown reader…</text>
   <text x="640" y="195" class="mono body">mdview v1.2.3</text>
   <text x="640" y="229" class="mono muted">Installers · updater · PDF</text>
+
   <text x="460" y="278" text-anchor="middle" class="mono muted">Synchronized from stable releases published across the selected repositories.</text>
 </svg>
