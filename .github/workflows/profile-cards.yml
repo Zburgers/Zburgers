@@ -1,6 +1,12 @@
 name: Refresh Profile Release Cards
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_profile_cards.py"
+      - ".github/workflows/profile-cards.yml"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
