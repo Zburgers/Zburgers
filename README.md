@@ -24,7 +24,7 @@
 
 ## About
 
-I build **reliable AI systems, local-first desktop software, and full-stack products**. My recent work spans agent operations, workflow reliability, developer tooling, privacy-conscious applications, reproducible reinforcement-learning research, and production-minded QA.
+I build **reliable AI systems, local-first desktop software, and full-stack products**. My recent work spans agent operations and control planes, agent-wallet safety boundaries, workflow reliability, developer tooling, privacy-conscious applications, reproducible reinforcement-learning research, and production-minded QA.
 
 I care about software that is understandable, testable, and genuinely useful—not feature volume for its own sake. I also contribute to open-source projects through issue research, focused fixes, testing, and documentation.
 
@@ -56,6 +56,7 @@ I care about software that is understandable, testable, and genuinely useful—n
 |:---|:---|
 | **[VibeVoice](https://github.com/Zburgers/vibevoice)** | A local-first desktop voice-input tool for developers using Tauri and `whisper.cpp`, with configurable dictation controls, developer-term cleanup, diagnostics, privacy-conscious history, and cross-platform release support. |
 | **[mdview](https://github.com/Zburgers/mdview)** | A fast, local-first Markdown reader for Linux, Windows, and macOS with reader/source/split modes, Mermaid rendering, safe HTML handling, themes, tabs, search, PDF-friendly printing, and signed update support. |
+| **[Crip Wallet](https://github.com/Zburgers/crip-wallet)** | An open-source, provider-neutral agent-wallet control plane focused on policy enforcement, atomic budgets, approvals, revocation, auditability, recovery fencing, and safe local-first execution boundaries. |
 | **[cb-connect](https://github.com/Zburgers/cb-connect)** | A private, consent-first couples support application for cycle context, body and pain check-ins, relationship signals, and timely support—designed around privacy and careful product boundaries. |
 | **[SandLabX](https://github.com/Zburgers/SandlabsX)** | A self-hosted network and systems lab platform built around QEMU/KVM, QCOW2 overlays, Apache Guacamole, PostgreSQL, browser consoles, visual topology editing, and deterministic lab definitions. |
 | **[Goofy Agent OS](https://github.com/Zburgers/agent-os)** | A self-hosted control plane for reliable AI-agent and workflow operations with durable state, approvals, idempotency, payment and wallet boundaries, pause/kill controls, and auditability. [Read the reliability case study](https://github.com/Zburgers/agent-os/blob/main/docs/CASE_STUDY_AUTOMATION_RELIABILITY.md). |
@@ -79,7 +80,8 @@ I care about software that is understandable, testable, and genuinely useful—n
 
 I am currently focused on:
 
-- Building dependable personal-agent infrastructure through **Goofy Agent OS**.
+- Building dependable personal-agent infrastructure and operational tooling around self-hosted agents.
+- Developing **Crip Wallet** as an agent-wallet control plane with strong policy, budget, approval, audit, and recovery boundaries.
 - Shipping and hardening **VibeVoice** and **mdview** as real desktop products.
 - Improving **cb-connect** carefully around privacy, notification delivery, and prediction quality.
 - Contributing focused fixes and issue research across open-source reliability and developer-tooling projects.
