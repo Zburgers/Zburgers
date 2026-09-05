@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101729"><meta name="description" content="A tiny midnight arcade by Nakshatra Kundlas. Fly through the city, one commit at a time.">
+  <title>Flappy Commit — Midnight Arcade</title>
+  <link rel="icon" href="./bird.svg" type="image/svg+xml">
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#0b1120;color:#e6e9f0;font:15px/1.5 system-ui,sans-serif;min-height:100dvh;background-image:radial-gradient(ellipse at 50% 30%,#22354c66,transparent 65%)}main{width:min(960px,100%);margin:auto;padding:32px 24px}header,.controls,.scoreboard{display:flex;align-items:center;justify-content:space-between;gap:16px}header{margin-bottom:24px}a{color:#b6d5d5;text-decoration:none}.eyebrow{font:11px ui-monospace,monospace;letter-spacing:2px;color:#9baabd}h1{font-size:clamp(30px,5vw,48px);letter-spacing:-2px;line-height:1.1;margin:8px 0}p{color:#a8b4c6;margin:8px 0}.scoreboard{font:12px ui-monospace,monospace;margin-bottom:12px}.scoreboard strong{font-size:22px;color:#f5d69e}.stage{position:relative;overflow:hidden;border:1px solid #41536a;border-radius:18px;box-shadow:0 30px 80px #0006}canvas{display:block;width:100%;height:auto;touch-action:none;outline-offset:-4px}button{font:inherit;color:#e6e9f0;background:#1b283b;border:1px solid #45536a;border-radius:8px;padding:9px 15px;cursor:pointer}button:hover{background:#293b50}button:focus-visible,a:focus-visible,canvas:focus-visible,select:focus-visible{outline:3px solid #eac58e;outline-offset:3px}.controls{margin-top:16px;flex-wrap:wrap}.buttons{display:flex;gap:8px}.overlay{position:absolute;inset:0;display:grid;place-content:center;text-align:center;background:#0b11205c;backdrop-filter:blur(2px);padding:16px}.overlay[hidden]{display:none}.overlay h2{font-size:clamp(24px,5vw,46px);letter-spacing:-1px;line-height:1.1;margin:10px}.overlay button{background:#efd4a4;color:#152236;border:0;font-weight:700;justify-self:center;padding:12px 32px;box-shadow:0 5px 0 #a48b62}.overlay p{color:#f0e5d3}.note{font-size:12px;margin-top:28px;color:#92a0b3}.note a{text-decoration:underline}select{background:#152235;color:#e6e9f0;border:1px solid #45536a;border-radius:5px;padding:4px}#status{font-size:13px;color:#bbc7d6}footer{display:flex;justify-content:space-between;font:11px ui-monospace,monospace;color:#8090a8;border-top:1px solid #283448;margin-top:28px;padding-top:16px}@media(max-width:600px){main{padding:20px 14px}header{align-items:flex-start}.desktop{display:none}.scoreboard{gap:8px;font-size:10px}.buttons button{padding:9px 12px}footer{gap:16px}}
+  </style>
+</head>
+<body><main>
+  <header><div><div class="eyebrow">NAKSHATRA'S MIDNIGHT ARCADE / 01</div><h1>Flappy Commit.</h1><p>Small bird. Big deployment energy.</p></div><a href="https://github.com/Zburgers">← GitHub</a></header>
+  <div class="scoreboard"><span>SCORE <strong id="score">00</strong></span><span>PERSONAL BEST <strong id="best">00</strong></span><label>FLIGHT <select id="difficulty"><option value="classic">Classic</option><option value="chill">Chill</option></select></label></div>
+  <div class="stage">
+    <canvas id="game" width="900" height="520" tabindex="0" aria-label="Flappy Commit. Space, up arrow or tap to flap. P or Escape to pause.">Use a browser with Canvas support to play Flappy Commit.</canvas>
+    <div class="overlay" id="overlay"><div class="eyebrow">ONE MORE RUN?</div><h2 id="message">The sky is yours.</h2><p id="hint">Space, click or tap to spread your wings.</p><button id="start">Take flight</button></div>
+  </div>
+  <div class="controls"><span id="status" role="status" aria-live="polite">Ready for takeoff · SPACE / ↑ / tap</span><div class="buttons"><button id="pause" aria-label="Pause game">Pause</button><button id="sound" aria-pressed="false">Sound off</button></div></div>
+  <p class="note">Your best score stays in this browser. <span class="desktop">P / Esc to pause · R to restart.</span> Switch to Chill for wider gaps. No account, no leaderboard pressure.</p>
+  <footer><span>MADE WITH LOVE &amp; RED BULL</span><a href="https://github.com/Zburgers/Zburgers/tree/main/game">View the source ↗</a></footer>
+</main><script type="module" src="./game.js"></script></body></html>

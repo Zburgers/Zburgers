@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" role="img" aria-labelledby="title desc">
+<title id="title">Nakshatra Kundlas — software, systems and a little curiosity</title><desc id="desc">An animated orbital sketch beside Nakshatra's name. Backend systems, applied AI and things worth building.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172235"/><stop offset="1" stop-color="#0d1522"/></linearGradient><radialGradient id="light"><stop stop-color="#dfbc8630"/><stop offset="1" stop-color="#dfbc8600"/></radialGradient></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.orbit{transform-origin:755px 110px;animation:orbit 28s linear infinite}.reverse{animation-direction:reverse;animation-duration:40s}.blink{animation:blink 4s ease-in-out infinite}@keyframes orbit{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.orbit,.blink{animation:none}}</style>
+<rect x="1" y="1" width="918" height="218" rx="16" fill="url(#bg)" stroke="#344151"/>
+<circle cx="755" cy="110" r="110" fill="url(#light)"/>
+<g fill="none" stroke="#9db1c2"><ellipse cx="755" cy="110" rx="104" ry="39" transform="rotate(-28 755 110)" opacity=".45"/><ellipse cx="755" cy="110" rx="90" ry="55" transform="rotate(45 755 110)" opacity=".25"/><circle cx="755" cy="110" r="64" opacity=".15"/></g>
+<g class="orbit"><circle cx="691" cy="110" r="5" fill="#dec294"/><circle cx="819" cy="110" r="2" fill="#b7c8d2"/></g>
+<g class="orbit reverse"><circle cx="755" cy="23" r="3" fill="#8ebbb5"/></g>
+<path d="m755 83 7 20 20 7-20 7-7 20-7-20-20-7 20-7z" fill="#dec294" class="blink"/>
+<g fill="#b2c2cd"><circle cx="860" cy="46" r="1.4"/><circle cx="635" cy="162" r="1"/><circle cx="859" cy="179" r="1"/><circle cx="676" cy="35" r="1"/></g>
+<text x="36" y="48" fill="#ddc298" font-family="monospace" font-size="11" letter-spacing="2.6">NAKSHATRA / ZBURGERS</text>
+<text x="34" y="109" fill="#f2eee7" font-size="44" font-weight="700" letter-spacing="-1.8">Built out of curiosity.</text>
+<text x="36" y="148" fill="#b3c0d0" font-size="17">Backend systems. Applied AI. Things worth using.</text>
+<text x="36" y="185" fill="#91a1b5" font-size="12">DELHI, INDIA</text>
+</svg>
