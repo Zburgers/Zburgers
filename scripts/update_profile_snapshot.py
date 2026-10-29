@@ -62,7 +62,7 @@ def project_card(config,repo,release):
 def snapshot(repos,merged,contributions,languages,now):
     originals=[r for r in repos if not r['fork'] and not r['archived']]
     metrics=[('CONTRIBUTIONS · LAST YEAR',contributions),('PUBLIC REPOSITORIES',len(repos)),('MERGED PUBLIC PRS',merged),('STARS · ORIGINAL REPOS',sum(r['stargazers_count'] for r in originals))]
-    body=f'<text x="24" y="32" font-size="12" fill="#d9c39d" class="mono">ON GITHUB</text><text x="896" y="32" text-anchor="end" font-size="11" fill="#9baabd">{now:%d %b %Y} UTC</text>'
+    body=f'<text x="24" y="32" font-size="12" fill="#d9c39d" class="mono">ON GITHUB</text>'
     for i,(label,value) in enumerate(metrics):
         x=24+i*225
         body+=f'<text x="{x}" y="83" font-size="32" font-weight="700" fill="#f1ede5">{value:,}</text><text x="{x}" y="108" font-size="10" fill="#a9b6c6" class="mono">{label}</text>'
